@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'auth.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'yt_django_auth',
-        'USER': 'root',
-        'PASSWORD': 'rootroot'
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'registration',
+        'USER': 'dev-git',
+        'PASSWORD': 'registration'
     }
 }
 
